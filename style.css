@@ -72,6 +72,35 @@ img {
 /* ================== */
 /* Typography */
 /* ================== */
+.title {
+  font-size: var(--fs-18);
+  letter-spacing: 6.15px;
+  text-transform: uppercase;
+}
+
+.number {
+  font-size: var(--fs-36);
+  color: var(--clr-soft-red);
+  letter-spacing: -1.08px;
+}
+
+.unit {
+  font-size: var(--fs-07);
+  letter-spacing: 2.96px;
+  text-transform: uppercase;
+  color: var(--clr-grayish-blue);
+}
+
+/* ================== */
+/* Links */
+/* ================== */
+
+/* ================== */
+/* Utility styles */
+/* ================== */
+
+.container {
+}
 
 /* ================== */
 /* ================== */
