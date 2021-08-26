@@ -79,16 +79,16 @@ img {
 }
 
 .number {
-  font-size: var(--fs-36);
   color: var(--clr-soft-red);
+  font-size: var(--fs-36);
   letter-spacing: -1.08px;
 }
 
 .unit {
+  color: var(--clr-grayish-blue);
   font-size: var(--fs-07);
   letter-spacing: 2.96px;
   text-transform: uppercase;
-  color: var(--clr-grayish-blue);
 }
 
 /* ================== */
@@ -106,19 +106,16 @@ img {
 /* ================== */
 
 .wrapper {
-  min-height: 100vh;
-
   background: url('./images/pattern-hills.svg') no-repeat;
-
   background-position: 85% 100%;
   background-size: 450%;
-
+  min-height: 100vh;
+  overflow: hidden;
+  /* Flex */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
-  overflow: hidden;
 }
 
 /* ================== */
@@ -137,9 +134,8 @@ img {
 
 .countdown-timer {
   margin-top: 3.375em;
-
+  /* Flex */
   display: flex;
-
   justify-content: center;
   align-items: center;
   gap: 1em;
@@ -147,21 +143,21 @@ img {
 
 .inner-card {
   background: var(--clr-dark-desaturated-blue);
+  border-radius: 0.5em;
   padding: 0.875em 0em;
   width: 70px;
-  border-radius: 0.5em;
 }
 
 .unit {
-  margin-top: 0.625em;
   display: inline-block;
+  margin-top: 0.625em;
 }
 
 /* FOOTER */
 
 .socials-list {
   list-style: none;
-
+  /* Flex */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,31 +173,10 @@ img {
   font-size: var(--fs-12);
   font-weight: var(--fw-regular);
 }
+
 .attribution a:link {
   color: var(--clr-soft-red);
 }
-
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
 
 /* ================== */
 /* MEDIA QUERIES */
@@ -239,7 +214,7 @@ img {
 
   .countdown-timer {
     margin-top: 6.5em;
-
+    /* Flex */
     gap: 2em;
   }
 
