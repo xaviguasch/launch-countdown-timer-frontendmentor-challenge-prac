@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 *,
 *::before,
 *::after {
@@ -15,6 +14,7 @@
 :root {
   --ff-main: 'Red Hat Text', sans-serif;
 
+  --fw-regular: 400;
   --fw-bold: 700;
 
   --fs-07: 0.438rem;
@@ -95,39 +95,109 @@ img {
 /* Links */
 /* ================== */
 
+.social-link:hover path,
+.social-link:focus path {
+  cursor: pointer;
+  fill: var(--clr-soft-red);
+}
+
 /* ================== */
 /* Utility styles */
 /* ================== */
 
-.container {
+.wrapper {
+  min-height: 100vh;
+
+  background: url('./images/pattern-hills.svg') no-repeat;
+
+  background-position: 85% 100%;
+  background-size: 450%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
 }
 
 /* ================== */
+/* SECTIONS */
 /* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
-/* ================== */
+
+/* Main */
+.main {
+  padding: 0 1.75em;
+}
+
+.title {
+  margin-top: 8.875em;
+  padding: 0 0.75em;
+}
+
+.countdown-timer {
+  margin-top: 3.375em;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.inner-card {
+  background: var(--clr-dark-desaturated-blue);
+  padding: 0.5em 1em;
+  width: 70px;
+  border-radius: 0.5em;
+}
+
+.unit {
+  margin-top: 0.625em;
+}
+
+/* FOOTER */
+
+.socials-list {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.footer__signature {
+  margin-top: 4em;
+  padding-bottom: 0.5em;
+}
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
+  font-size: var(--fs-12);
+  font-weight: var(--fw-regular);
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.attribution a:link {
+  color: var(--clr-soft-red);
 }
+
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
