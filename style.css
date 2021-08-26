@@ -147,7 +147,7 @@ img {
 
 .inner-card {
   background: var(--clr-dark-desaturated-blue);
-  padding: 0.5em 1em;
+  padding: 0.875em 0em;
   width: 70px;
   border-radius: 0.5em;
 }
@@ -245,7 +245,7 @@ img {
 
   .inner-card {
     width: 148px;
-    padding: 0.5em 2em;
+    padding: 1.5em 0em;
   }
 
   .unit {
