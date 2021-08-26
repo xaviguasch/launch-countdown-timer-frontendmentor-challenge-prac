@@ -154,6 +154,7 @@ img {
 
 .unit {
   margin-top: 0.625em;
+  display: inline-block;
 }
 
 /* FOOTER */
@@ -201,3 +202,75 @@ img {
 /* ================== */
 /* ================== */
 /* ================== */
+
+/* ================== */
+/* MEDIA QUERIES */
+/* ================== */
+
+@media (min-width: 765px) {
+  /* Typography */
+  .title {
+    font-size: var(--fs-22);
+    letter-spacing: 7.5px;
+  }
+
+  /* Utility styles */
+  .wrapper {
+    background-position: 0% 100%;
+    background-size: 200%;
+  }
+
+  .number {
+    font-size: var(--fs-80);
+    letter-spacing: -2.4px;
+  }
+
+  .unit {
+    font-size: var(--fs-14);
+    letter-spacing: 5.92px;
+  }
+
+  /* Sections */
+
+  .title {
+    margin-top: 6.875em;
+    padding: 0 0.75em;
+  }
+
+  .countdown-timer {
+    margin-top: 6.5em;
+
+    gap: 2em;
+  }
+
+  .inner-card {
+    width: 148px;
+    padding: 0.5em 2em;
+  }
+
+  .unit {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 1050px) {
+  .wrapper {
+    background-position: 0% 100%;
+    background-size: 100%;
+  }
+
+  .title {
+    margin-top: 4.875em;
+  }
+}
+
+@media (min-width: 1500px) {
+  .wrapper {
+    background-position: 0% 115%;
+    background-size: 100%;
+  }
+
+  .title {
+    margin-top: 8.25em;
+  }
+}
